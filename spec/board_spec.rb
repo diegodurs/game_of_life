@@ -48,7 +48,7 @@ describe Board do
       board.add_living_cell(1,2)
       board.add_living_cell(2,1)
       board.tick
-      expect(board).to be_dead(1,0)
+      expect(board).to be_dead(1,1)
     end
   end
 
